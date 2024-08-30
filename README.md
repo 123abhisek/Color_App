@@ -1,5 +1,20 @@
+# Color-Based App
 
-# Color App
+## Project Overview
+
+This project is a **Color-Based App** built using **Jetpack Compose** for Android. The app allows users to create and manage a list of colors, which are saved to **Firebase Realtime Database** and can be viewed both online and offline.
+
+## Key Features
+- **Dynamic Color Addition**: Users can add new colors via a popup form, specifying the color name in Hex format.
+- **Offline Mode Support**: Colors are saved locally using **RoomDB**, ensuring the color list is available even without internet connectivity.
+- **Custom UI**: The app uses a custom `TopAppBar` with dynamic content displayed in a `LazyRow`.
+- **Floating Action Button (FAB)**: Tapping the FAB triggers a popup form for adding new colors.
+
+## Technologies Used
+- **Jetpack Compose**: For declarative UI design.
+- **Firebase Realtime Database**: For cloud data storage.
+- **RoomDB**: For local offline storage.
+- **Kotlin**: Primary language for Android development.
 
 ### Demo Video :-
 
